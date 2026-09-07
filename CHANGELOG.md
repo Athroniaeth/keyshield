@@ -1,3 +1,15 @@
+## 2.0.1 (2026-09-07)
+
+### Fix
+
+- **types**: guard fastapi import behind TYPE_CHECKING so the SQLAlchemy/Litestar CLI no longer requires fastapi
+
+## 1.1.0 (2026-01-20)
+
+### Feat
+
+- **security**: apply uniform verify delay for all outcomes
+
 ## 2.0.0 (2026-03-06)
 
 ### BREAKING CHANGE
